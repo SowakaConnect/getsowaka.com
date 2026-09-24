@@ -1,9 +1,29 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/Independence", "destination": "/independence_index" },
-    { "source": "/Independence/", "destination": "/independence_index" },
-    { "source": "/independence", "destination": "/independence_index" },
-    { "source": "/independence/", "destination": "/independence_index" }
+    {
+      "source": "/Independence",
+      "destination": "/independence_index"
+    },
+    {
+      "source": "/Independence/",
+      "destination": "/independence_index"
+    },
+    {
+      "source": "/independence",
+      "destination": "/independence_index"
+    },
+    {
+      "source": "/independence/",
+      "destination": "/independence_index"
+    },
+    {
+      "source": "/connect",
+      "destination": "https://sowaka-landing-sowaka1.vercel.app/connect"
+    },
+    {
+      "source": "/connect/:path*",
+      "destination": "https://sowaka-landing-sowaka1.vercel.app/connect/:path*"
+    }
   ]
 }
