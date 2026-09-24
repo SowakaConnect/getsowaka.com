@@ -19,11 +19,11 @@
     },
     {
       "source": "/connect",
-      "destination": "https://sowaka-landing-sowaka1.vercel.app/connect"
+      "destination": "https://sowaka-landing-sowaka2.vercel.app/connect"
     },
     {
       "source": "/connect/:path*",
-      "destination": "https://sowaka-landing-sowaka1.vercel.app/connect/:path*"
+      "destination": "https://sowaka-landing-sowaka2.vercel.app/connect/:path*"
     }
   ]
 }
